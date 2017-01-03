@@ -1,0 +1,18 @@
+# initialize
+git init
+
+#Create .gitignore file to add file that will not be commited
+touch .gitignore
+# add all file to local Git repository
+
+git add --all
+
+
+#make commit to local repo
+git commit -m " comment "
+
+#Link local repository to the github remote repo
+Git remote add origin https://github.com/username/foldername
+
+#commit to remote repository
+git push -u origin master
